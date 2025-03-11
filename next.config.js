@@ -2,11 +2,9 @@
 const nextConfig = {
   images: {
     domains: [
-      'plus.unsplash.com',
-      'images.unsplash.com',
-      'media.istockphoto.com',
-      'plus.unsplash.com'
+      'localhost'
     ],
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
